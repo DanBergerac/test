@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        // Settings for the compiler
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "target": "es2015",
+        "module": "ESNext",
+    
+        // Rules for your code
+        "strict": false,
+        "noImplicitAny": false,
+        "noImplicitReturns": false,
+        "noUnusedParameters": false,
+        "noUnusedLocals": false,
+        "noFallthroughCasesInSwitch": false,
+        "noImplicitOverride": false,
+
+        // Settings for linking source files
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+
+    },
+    // Folder for your code
+    "include": [
+        "./src/**/*"
+    ]
+}
